@@ -17,7 +17,7 @@ int main(){
 	
 	return 0;
 }
-
+//Write definition of shuffle() using pointer here 
 void shuffle(int *a,int *b,int *c,int *d){
 	int A[]={*a,*b,*c,*d};
 	int num=0;
@@ -39,5 +39,3 @@ void shuffle(int *a,int *b,int *c,int *d){
 	*c = A[2];
 	*d = A[3];
 }
-
-//Write definition of shuffle() using pointer here 
